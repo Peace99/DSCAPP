@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main5">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textSize="20sp"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/faculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Your faculty"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Level"
+        android:textSize="20sp"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/matric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Matric No"
+        android:textSize="20sp"
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/track"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What Track"
+        android:textSize="20sp"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_marginBottom="60dp"
+        android:onClick="submit"/>
+
+
+
+</LinearLayout>
